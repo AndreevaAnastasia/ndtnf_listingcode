@@ -1,6 +1,6 @@
 const person = {
     name: 'Владимир',
-    age: '34'
+    age: 34
 };
 
 function printInfo(age: number, name: string) {
