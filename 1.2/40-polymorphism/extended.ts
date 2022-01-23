@@ -22,3 +22,6 @@ class ComicsBook extends Book {
     }
 }
 
+const comicsBook: ComicsBook = new ComicsBook('DC', 'Batman Forever', 'Unknown Author');
+console.log(comicsBook.getInfo()); // Batman Forever - Unknown Author - DC
+
