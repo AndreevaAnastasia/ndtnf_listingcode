@@ -17,5 +17,5 @@ const Contacts = function (phone, email) {
 
 const ContactsPage = withLayout(Contacts);
 
-const user1ContactsPage = ContactsPage('+79091231232', 'test@user.com');
-const user2ContactsPage = ContactsPage('+79111231232', 'test@user2.com');
+const user1ContactsPage = ContactsPage('+79091231232', 'tests@user.com');
+const user2ContactsPage = ContactsPage('+79111231232', 'tests@user2.com');
